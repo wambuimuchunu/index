@@ -1,0 +1,13 @@
+h1 {
+	color: #501be3;
+	background-color: crimson;
+	text-align: center;
+
+}
+body {
+	background: url("img/teacher.jpg") no-repeat center center fixed;
+        background-size: cover;
+}
+nav {
+	text-size-adjust: 18px;
+}

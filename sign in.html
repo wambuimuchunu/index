@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="sign in.css">
+</head>
+<body>
+	
+		<div class="container">
+			<h1>Sign In / Sign Out</h1>
+			<form action="signin.php" method="post">
+				<div class="row">
+					<div class="col-25">
+						<label for="email">Email</label>
+					</div>
+					<div class="col-75">
+						<input type="text" id="email" name="email" placeholder="Enter email address">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-25">
+						<label for="password">Password</label>
+					</div>
+					<div class="col-75">
+						<input type="password" id="password" name="password" placeholder="Enter password">
+					</div>
+				</div>
+				<div class="row">
+					<input type="submit" name="signin" value="Sign In">
+				</div>
+			</form>
+			<form action="signout.php">
+				<div class="row">
+					<input type="submit" name="signout" value="Sign Out">
+				</div>
+			</form>
+		</div>
+	
+</body>
+</html>
